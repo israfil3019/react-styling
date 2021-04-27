@@ -2,7 +2,9 @@
 // import StyleSheet from './components/stylesheets/styleSheet'
 // import "./styles.css"
 // import styles from "./styles.module.css"
-import ModuleBtn from "./components/moduleCss/ModuleBtn"
+// import ModuleBtn from "./components/moduleCss/ModuleBtn"
+
+import Sassy from "./components/sassy/Sassy"
 
 const App = () => {
 // console.log("styles obj: ", styles); */
@@ -12,10 +14,10 @@ const App = () => {
       {/* <StyleSheet primary={false} /> */}
       {/* <h1 className="error">Something went wrong</h1>
       <h1 className={styles.success}>200 OK success </h1> */}
-      <h1>Module Css</h1>
+      {/* <h1>Module Css</h1>
       <ModuleBtn btnClass="primary" btnName="Module" />
-      <ModuleBtn  btnClass="secondary" btnName="CSS" />
-
+      <ModuleBtn  btnClass="secondary" btnName="CSS" /> */}
+      <Sassy/>
     </div>
   );
 };
