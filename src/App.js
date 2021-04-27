@@ -1,11 +1,13 @@
-import Inline from './components/inline/inline'
-
+// import Inline from './components/inline/inline'
+import StyleSheet from './components/stylesheets/styleSheet'
 
 const App = () => {
-  
+
   return (
     <div>
-      <Inline />     
+      {/* <Inline />      */}
+      <StyleSheet primary={false} />
+
     </div>
   );
 };
